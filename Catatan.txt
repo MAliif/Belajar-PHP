@@ -1,0 +1,11 @@
+https://www.malasngoding.com/belajar-php-dasar-pengenalan-dan-kegunaan-php/
+
+~ Pengenalan PHP
+PHP memiliki sifat server-side, karena PHP dijalankan atau dieksekusi dari sisi server.Maksudnya 
+dijalankan dari sisi server adalah PHP di jalankan pada komputer server dan bukan pada komputer client. 
+PHP di jalankan melalui aplikasi web browser sama halnya seperti HTML
+
+~ Fungsi/Kegunaan PHP
+Pada contoh kasus bangunan rumah, PHP digunakan untuk membuat siapa saja yang dapat masuk ke dalam rumah, 
+siapa yang dapat melihat rumah, dan siapa yang dapat menyimpan memasukkan atau membuang barang-barang pada rumah tersebut. 
+Jadi intinya PHP berguna untuk membuat aksi pada rumah atau website jika pada contoh nyatanya
