@@ -21,3 +21,14 @@ client berupa halaman website yang umumnya berbentuk file .HTML atau . PHP
 Localhost merupakan server local atau web server yang bekerja atau berjalan pada laptop atau pc anda. alamat IP dari localhost 
 adalah 127.0.0.1 yang kemudian di terjemahkan menjadi LOCALHOST. Localhost dijadikan sebagai server sementara pada saat pengembangan
  aplikasi yang berbasis websipte sebelum di hosting kan atau di online kan.
+
+https://www.dicoding.com/blog/untuk-menjadi-seorang-programmer-jangan-hanya-fokus-pada-syntax/
+
+# Apa Itu Syntax?
+Sederhananya, sintaksis adalah aturan menulis kode dalam sebuah bahasa pemrograman supaya lebih terstruktur sehingga dapat mencapai suatu tujuan.
+
+https://www.malasngoding.com/belajar-php-dasar-untuk-pemula/
+
+# Penulisa Syntax PHP
+Syntax PHP ditulis didalam tag yang dimulai dengan "<?php" dan diakhiri dengan "?>"
+Setiap baris syntax harus diakhiri dengan semicolon ";"
