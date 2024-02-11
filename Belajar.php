@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <p>Sumber belajar : <u><a style="color:brown" href="https://www.malasngoding.com/category/php/">https://www.malasngoding.com/category/php/</a></u></p>
+    <p>Sumber belajar : <u><a style="color:brown" target="_blank" href="https://www.malasngoding.com/category/php/">https://www.malasngoding.com/category/php/</a></u></p>
 </body>
 
 <?php
@@ -75,6 +75,30 @@ echo "Fungsi untuk membalikan urutan karakter : " . strrev($v_isi3) . "<br />";
 echo "<br /><i>" . $v_isi4 . "</i><br />";
 echo "Fungsi untuk memflilter dan mengganti string : " . str_replace("sedikit", "banyak", $v_isi4) . "<br />";
 echo "<br><br>";
-?>
 
+//* Part 7 Kondisi
+//? Digunakan ketika butuh untuk pengecekan Kondisi
+$teman = "Alif";
+
+echo "<h1>Kondisi</h1>";
+echo "Isi variablenya : ".$teman."<br>";
+echo "Kalo tipe data variablenya string maka akan keluar <u>'Cihuy'</u>, jika tidak maka akan keluar <u>'Kondisinya salah'</u>";
+if (is_string($teman)) {
+    echo "<br /> Cihuy";
+} else {
+    echo "Kondisinya salah";
+}
+
+//* Part 8 Fungsi/Function
+// http://support.kodable.com/en/articles/417313-what-are-functions#:~:text=Definition%3A%20A%20function%20is%20a,together%20later%20in%20a%20program.
+//? Fungsi adalah rangkaian perintah yang nantinya dapat digunakan kembali bersama-sama dalam suatu program.
+// https://ocw.upj.ac.id/files/Handout-IFA105-MP5-Fungsi.pdf
+//? () adalah parameter. Parameter adalah variable yang berfungsi untuk menampung nilai yang akan dikirim ke function
+//? {} perintah dari function
+function pertambahan($angka1, $angka2) {
+    echo $angka1 + $angka2;
+}
+//? Memanggil function dengan menyebut nama functionnya saja
+pertambahan(1, 9);
+?>
 </html>
